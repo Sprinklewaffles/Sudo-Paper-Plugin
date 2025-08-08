@@ -1,0 +1,9 @@
+name: SudoPlugin
+version: 1.0
+main: sudo.SudoPlugin
+api-version: 1.20
+commands:
+  sudo:
+    description: Run a command as another player or the console
+    usage: /sudo <player|console> <command>
+    permission: sudo.use
